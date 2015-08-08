@@ -1,0 +1,33 @@
+﻿Сборка начата 08.08.2015 14:39:03.
+     1>Проект "e:\УНИВЕР\Repositories\barillod@gmail.com\SolarSystem-OpenGL\SolarSystem\SolarSystem.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iglaux/ /Iglut/ /IGL/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Moon.cpp Planet.cpp SolarSystem.cpp Texture.cpp main.cpp
+         main.cpp
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\globals.h(8): warning C4305: инициализация: усечение из "double" к "const float"
+         Texture.cpp
+         SolarSystem.cpp
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\globals.h(8): warning C4305: инициализация: усечение из "double" к "const float"
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\solarsystem.cpp(9): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\solarsystem.cpp(32): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\solarsystem.cpp(38): warning C4018: <: несоответствие типов со знаком и без знака
+         Planet.cpp
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\globals.h(8): warning C4305: инициализация: усечение из "double" к "const float"
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\planet.cpp(31): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\planet.cpp(41): warning C4018: <: несоответствие типов со знаком и без знака
+     1>e:\универ\repositories\barillod@gmail.com\solarsystem-opengl\solarsystem\planet.cpp(80): warning C4018: <: несоответствие типов со знаком и без знака
+         Moon.cpp
+         Camera.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\УНИВЕР\Repositories\barillod@gmail.com\SolarSystem-OpenGL\Debug\SolarSystem.exe" /INCREMENTAL /NOLOGO /LIBPATH:glaux/ /LIBPATH:glut/ /LIBPATH:GL/ glaux.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\УНИВЕР\Repositories\barillod@gmail.com\SolarSystem-OpenGL\Debug\SolarSystem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\УНИВЕР\Repositories\barillod@gmail.com\SolarSystem-OpenGL\Debug\SolarSystem.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\main.obj
+         Debug\Moon.obj
+         Debug\Planet.obj
+         Debug\SolarSystem.obj
+         Debug\Texture.obj
+     1>LINK : fatal error LNK1104: не удается открыть файл "gdi32.lib"
+     1>Сборка проекта "e:\УНИВЕР\Repositories\barillod@gmail.com\SolarSystem-OpenGL\SolarSystem\SolarSystem.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:07.13
